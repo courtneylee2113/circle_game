@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>death of darth</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script type="text/javascript" src="game.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1>Death to Darth</h1>
+  <p>Kill count: <span id="score"></span></p>
+  
+  <div id="game">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+
+<div>s
+<audio id="aud" autoplay>
+  <source src="Star_Wars.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<script type="text/javascript">
+ var myaud = document.getElementById("aud");
+ var k = setInterval("pauseAud()", 12000);
+
+ function playAud() {
+     myaud.play();
+ }
+
+ function pauseAud() {
+     myaud.pause();
+  clearInterval(k); 
+ } 
+</script> 
+</div>
+
+
+</body>
+</html>

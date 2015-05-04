@@ -1,0 +1,35 @@
+body {
+  background-image: url("storm_troopers.jpg");
+   background-repeat: no-repeat;
+     background-size: contain;
+}
+h1{
+    color: rgba(0,0,0,0.8);
+    font-size: 70px;
+    text-shadow: 3px 3px 4px rgba(204,0,0,0.5);
+    text-align: center;
+}
+p{
+  color: #E60000;
+text-align: left;
+font-size: 16px;
+font-family: 
+}
+#game {
+  background-color: 230,242,239;
+  height: 500px;
+  width: 500px;
+  border: 8px ridge grey;
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-image: url("wars.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  cursor:cell;
+}
+
